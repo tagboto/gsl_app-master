@@ -1,0 +1,155 @@
+name: my_gsl_app
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/ily.png
+    - images/lly2.png
+    - images/blackboard.png
+    - images/brainstorm.png
+    - images/family.png
+    - images/hourglass.png
+    - images/positive.png
+    - images/thinking.png
+    - images/vegetables.png
+    - images/blocks.png
+    - images/hug.png
+    - images/friends.png
+    - images/football.png
+    - images/number.png
+    - images/sun.png
+    - images/home.png
+    - images/couple.png
+    - images/gifs/family/parents.gif
+    - images/gifs/family/aunt.gif
+    - images/gifs/family/brother.gif
+    - images/gifs/family/cousin.gif
+    - images/gifs/family/daughter.gif
+    - images/gifs/family/family.gif
+    - images/gifs/family/sister.gif
+    - images/gifs/family/grandmother.gif
+    - images/gifs/family/husband.gif
+    - images/gifs/family/wife.gif
+    - images/gifs/alphabets/A.gif
+    - images/gifs/alphabets/B.gif
+    - images/gifs/alphabets/C.gif
+    - images/gifs/alphabets/D.gif
+    - images/gifs/alphabets/E.gif
+    - images/gifs/alphabets/F.gif
+    - images/gifs/alphabets/G.gif
+    - images/gifs/alphabets/H.gif
+    - images/gifs/alphabets/I.gif
+    - images/gifs/numbers/1.gif
+    - images/gifs/numbers/2.gif
+    - images/gifs/numbers/3.gif
+    - images/gifs/numbers/4.gif
+    - images/gifs/numbers/5.gif
+    - images/gifs/numbers/6.gif
+    - images/gifs/numbers/7.gif
+    - images/gifs/numbers/8.gif
+    - images/gifs/numbers/9.gif
+    - images/gifs/numbers/10.gif
+    - images/gifs/pronouns/also.gif
+    - images/gifs/pronouns/am.gif
+    - images/gifs/pronouns/an.gif
+    - images/gifs/pronouns/are.gif
+    - images/gifs/pronouns/every.gif
+    - images/gifs/pronouns/everyone.gif
+    - images/gifs/pronouns/for.gif
+    - images/gifs/pronouns/he.gif
+    - images/gifs/pronouns/her.gif
+    - images/gifs/pronouns/his.gif
+    - images/gifs/pronouns/I.gif
+    - images/gifs/pronouns/is.gif
+    - images/gifs/pronouns/it.gif
+    - images/gifs/pronouns/me.gif
+    - images/gifs/pronouns/mine.gif
+    - images/gifs/pronouns/my.gif
+    - images/gifs/pronouns/myself.gif
+    - images/gifs/games_activities/accept.gif
+    - images/gifs/games_activities/activity.gif
+    - images/gifs/games_activities/care.gif
+    - images/gifs/games_activities/congratulate.gif
+    - images/gifs/games_activities/create.gif
+    - images/gifs/games_activities/design.gif
+    - images/gifs/games_activities/smile.gif
+    - images/gifs/games_activities/stand.gif
+    - images/gifs/games_activities/walk.gif
+    - images/gifs/games_activities/meet.gif
+    - images/gifs/relationships/baby.gif
+    - images/gifs/relationships/boy.gif
+    - images/gifs/relationships/child.gif
+    - images/gifs/relationships/children.gif
+    - images/gifs/relationships/engaged.gif
+    - images/gifs/relationships/friend.gif
+    - images/gifs/relationships/girl.gif
+    - images/gifs/relationships/man.gif
+    - images/gifs/relationships/marriage.gif
+    - images/gifs/relationships/relationship.gif
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Quicksand-Light
+       fonts:
+         - asset: assets/Quicksand-Light.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
